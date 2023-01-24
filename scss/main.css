@@ -613,3 +613,7 @@ body {
   padding: 20px 0px;
   margin-top: -10px;
 }/*# sourceMappingURL=main.css.map */
+
+p5Canvas {
+  background: -webkit-linear-gradient(253deg, rgb(21, 18, 84) 10%, rgb(0, 0, 0) 100%);
+}

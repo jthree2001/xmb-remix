@@ -1,4 +1,3 @@
-const video = document.getElementById("vid")
 const titles = document.getElementById("title")
 const warning = document.querySelectorAll(".warning")[0]
 const menu = document.getElementById("menu")
@@ -16,7 +15,6 @@ const navSound = document.getElementById("nav")
 let sectionNumber = 0
 let subsection = 0
 let multiSection
-startupSound.play()
 
 let checkLoad = () =>{
     return new Promise((resolve) => {
@@ -58,8 +56,8 @@ let sideClock = () => {
 
 let loadTitles = async () =>{
     await checkLoad()
-    video.play()
-    video.style.opacity = '1'
+    // video.play()
+    // video.style.opacity = '1'
     titles.style.opacity = '1'
     await warningDisplay();
 }
